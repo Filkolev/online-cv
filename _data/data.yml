@@ -93,25 +93,36 @@ experiences:
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Certificate of Professional Qualification in Software Engineering
+    university: Software University
+    time: 2014 - 2016
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+      The curriculum at SoftUni is a combination of programming courses and 
+      technologies, directed to the adoption of fundamental knowledge, 
+      developing logical and algorithmic thinking and the acquisition of 
+      practical skills.
+        - Programming Basics
+        - Advanced C# (functional programming, regular expressions, concurrent programming)
+        - Teamwork (git, subversion)
+        - Java Fundamentals
+        - OOP and OOD (inheritance, abstraction, polymorphism, encapsulation)
+        - High-Quality Code (SOLID principles)
+        - Web Fundamentals (HTML 5 and CSS 3)
+        - JavaScript and jQuery
+        - PHP Basics
+        - SQL, T-SQL, MySQL, RDBMS, ORM (Entity Framework)
+        - Web Services, REST
+        - Data Structures and Algorithms (array-based lists, linked lists, hash tables, 
+        trees and graphs, data structure efficiency, recursion, combinatoric algorithms, 
+        searching and sorting algorithms, DFS and BFS, Dijkstra, topological sorting, dynamic 
+        programming, greedy algorithms)
+  - degree: BSc in Business Administration
+    university: Sofia University St. Kliment Ohridski
+    time: 2006 - 2010
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Program focused on management, ecnomomics and law disciplines:
+        - Management, Business Planning and Control, Organizational Behaviour
+        - Marketing, Economic Psychology
+        - HRM
+        - Law (Introductory, Civil, Commercial, International and Financial)
+        - Accounting (Introductory, Financial, Managerial, ISFR)
