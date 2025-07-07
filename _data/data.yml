@@ -64,7 +64,7 @@ skills:
     level: 70%
 
   - name: React
-    level: 40%
+    level: 30%
 
 experiences:
   title: Experiences
@@ -73,6 +73,13 @@ experiences:
     time: 2022 - present
     company: Ocado Technology, Sofia
     details: |
+      Working on an embedded device running Linux, where the team is 
+      responsible for managing the device as a whole, including maintainig
+      related cloud services. The device is mainly reponsible for logging 
+      and firmware updates of connected devices.
+
+      Tasks include the following.
+
       Board bring-up:
         - Configure and build cross-compilation toolchain with crosstool-ng
         - Configure and build bootloader (U-Boot)
@@ -81,46 +88,55 @@ experiences:
         - Build root filesystem (debootstrap, Yocto)
         - Build initramfs/initrd images
         - Create/format storage partitions
+
       Software development:
-        - Using frameworks - Spring Boot, React
+        - Maintain cloud apps using Spring Boot, React
         - Network programming - TCP/UDP sockets, REST
         - Communication protocols - UART, SPI, CAN, CANopen, 1-wire
         - Multithreading and synchronization
         - Message brokering, message queues
+
       System administration:
-        - systemd, cron, sys-V initramfs
-        - udev
+        - systemd, cron, sys-V init, udev
         - NTP synchronization, chrony configuration
-        - Configuring DHCP server and client
+        - Configure DHCP server and client
         - Network management - NetworkManager, wpa_supplicant, iptables
-        - configuring services via inetd/xinetd
+        - Configure services via inetd/xinetd
         - Configure logging with rsyslog, logrotate
         - Configure SSHD
         - Implement sudoers policies
         - Create and manage Linux users and groups
+
       Debugging:
-        - Investigate system (syslog, journal) and application logs
-        - General debugging with tools (strace, gdb, top, lsof, fuser) and virtual filesystems (debugfs, procfs, sysfs)
+        - Investigate system logs (syslog, journal) and application logs
+        - General debugging using tools (strace, gdb, top, lsof, fuser) 
+        and virtual filesystems (debugfs, procfs, sysfs)
         - Network debugging - tcpdump, iw, ip, ethtool, dig/nslookup
+
       Observability:
-        - Using object/file storage - CEPH, S3, GCS
+        - Use object/file storage - CEPH, S3, GCS
         - Log viewing and analysis - Kibana, OpenSearch, BigQuery, Looker Studio
         - Monitoring and alerting - PagerDuty, Alert Manager, Prometheus 
+
       CI/CD:
-        - Working with git, Gitlab
-        - configuring CI/CD pipelines
-        - Configuring Gitlab runners
+        - Work with git, Gitlab
+        - Configure CI/CD pipelines
+        - Configure Gitlab runners
+
       Security:
         - Threat modelling
-        - Integrating analysis tools - Snyk, SonarQube
-        - Integrating tools for automatic dependency management - Renovate
+        - Integrate analysis tools - Snyk, SonarQube
+        - Integrate tools for automatic dependency management - Renovate
+
       Testing:
-        - Writing unit tests in C, C++, Python
+        - Write unit tests in C, C++, Python
         - Integration testing using JUnit, Wiremock, Mockito, s3mock, jsch
+
       Build tools:
-        - CMake, make, Maven, Gradle
+        - CMake, Make, Maven, Gradle
+
       Docker:
-        - Creating and using Docker images for CI/CD and integration testing
+        - Create and use Docker images for CI/CD and integration testing
   - role: Software Engineer
     time: 2018 - 2022
     company: Ocado Technology, Sofia
@@ -128,26 +144,27 @@ experiences:
     time: 2018 - 2018
     company: MM Solutions JSC, Sofia
     details: |
-        - General debugging - working with logs to identify where a problem 
-        occurred and, by understanding the system, implementing a solution. 
-        Languages - C, C++, Java
-        - Post-mortem debugging - understanding crash dumps and using gdb to 
-        identify the relevant pieces of source code where a crash originated.
-         Basic knowledge of assembly instructions
-        - Building loadable kernel modules for embedded systems. Created several 
+      Worked on several projects for clients with a focus on Android and
+      integration testing with Python.
+        - General debugging - worked with logs to identify where a problem 
+        occurred and implemented solutions. Languages - C, C++, Java
+        - Post-mortem debugging - understand crash dumps and use gdb to 
+        identify the relevant pieces of source code where a crash originated. 
+        Basic knowledge of assembly instructions
+        - Build loadable kernel modules for embedded systems. Created several 
         small Linux drivers utilizing device GPIOs, interrupts, work queues, state 
-        machines, writing to registers. Implementation language - C; hardware used 
-        - Raspberry Pi 3
-        - Created an internal scm (software configuration management) tool, which 
-        pulls data using SSH and REST, analyzes it and takes certain actions. More 
-        specifically, it requests information for patches in the code review system 
+        machines, writing to registers. Implementation language - C; hardware 
+        used - Raspberry Pi 3
+        - Created an internal SCM tool, which 
+        pulls data using SSH and REST, analyzes it and takes certain actions. 
+        Specifically, it requests information for patches in the code review system 
         (Gerrit), determines the relationships between patches and topics (collections 
-        of patches), determines the status of each patch and topic, automatically adds 
-        all required reviewers, signals for missing commit message attributes, fires 
+        of patches), automatically adds 
+        all required reviewers, checks for missing commit message attributes, fires 
         Jenkins patch builds for approved patches, emails certain users when certain 
-        events occur and others. Different commands can be used to generate reports; 
-        output is in HTML. Implementation language - Java 8
-        - Writing various tests within a specialized test framework for Android devices. 
+        events occur and others. Different HTML reports can be generated. 
+        Implementation language - Java 8
+        - Wrote various tests within a specialized test framework for Android devices. 
         Implementation language - Python
   - role: Junior Software Developer
     time: 2016 - 2018
@@ -157,20 +174,20 @@ experiences:
     company: MM Solutions JSC, Sofia
     details: |
       Responsibilities:
-        - Continuous integration - making Android patch builds and performing 
-        smoke tests before merging the approved patches (working with git, repo, 
+        - Continuous integration - make Android patch builds and perform 
+        smoke tests before merging approved patches (worked with git, repo, 
         Gerrit, Android build system)
-        - Writing scripts for automated build acceptance tests (working with bash, adb)
-        - Reporting bugs - describing bugs in a bug tracking system and collecting 
-        relevant reports (working with JIRA, adb)
-        - Bisecting builds to identify regressions
+        - Write scripts for automated build acceptance tests (work with bash, adb)
+        - Report bugs - describe bugs in a bug tracking system and collect
+        relevant reports (work with JIRA, adb)
+        - Bisect builds to identify regressions
   - role: Part-time Trainer
     time: 2015 - 2016
     company: Software University, Sofia
     details: |
-      Participate in the educational process by:
-        - Preparing course materials - in-class exercises, homework assignments, exams
-        - Delivering lectures - Programming Basics, Advanced C#, Object-Oriented Programming
+      Participate in the educational process:
+        - Prepare course materials - in-class exercises, homework assignments, exams
+        - Deliver lectures - Programming Basics, Advanced C#, Object-Oriented Programming
 
 
 education:
@@ -183,7 +200,7 @@ education:
       The curriculum at SoftUni is a combination of programming courses and 
       technologies, directed to the adoption of fundamental knowledge, 
       developing logical and algorithmic thinking and the acquisition of 
-      practical skills.
+      practical skills. Among others, the following is included in the curriculum:
         - Programming Basics
         - Advanced C# (functional programming, regular expressions, concurrent programming)
         - Teamwork (git, subversion)
