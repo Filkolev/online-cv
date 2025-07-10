@@ -13,8 +13,6 @@ sidebar:
   avatar: cv_photo.jpg # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: fil.kolev@gmail.com
-  phone: +359888005251
   timezone: Europe/Sofia
   citizenship: Bulgarian
   website: https://filkolev.github.io/online-cv/ 
